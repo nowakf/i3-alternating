@@ -27,5 +27,5 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 ~~~~
 
 That's the whole thing. I just put it in the i3 config as:
-exec_always --no-startup-id /home/francis/bin/i3-alternating &
+`exec_always --no-startup-id /home/francis/bin/i3-alternating &`
 so if you have problems, you can probably find them in the 5(?) lines of non-boilerplate code.
