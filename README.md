@@ -41,4 +41,4 @@ That's the whole thing. I just put it in the i3 config as:
 `exec_always --no-startup-id /home/username/bin/i3-alternating &`
 so if you have problems, you can probably find them in the ~~5(?) lines of non-boilerplate code.~~
 
-Due to feature requests, the code size has unfortunately grown prodigiously, and contains a very suspicious line (23) that personally I just don't trust at all. 
+Due to feature requests, the code size has grown prodigiously, and contains a very suspicious line (23) that personally I just don't trust at all. If you hit a bug, it's probably on that line.
