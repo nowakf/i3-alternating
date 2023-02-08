@@ -7,3 +7,7 @@ edition = "2021"
 
 [dependencies]
 i3ipc = "*"
+
+[profile.release]
+strip = true
+lto = true
